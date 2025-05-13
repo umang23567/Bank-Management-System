@@ -1,0 +1,19 @@
+.transaction-type.debit {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.transaction-type.credit {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.transaction-amount.debit {
+  color: #dc3545; /* Red for debit */
+}
+
+.transaction-amount.credit {
+  color: #28a745; /* Green for credit */
+}

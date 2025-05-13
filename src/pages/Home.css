@@ -1,0 +1,49 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .dashboard-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  button {
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a6fa5;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #3a5a8a;
+  }
+  
+  .logout-button {
+    margin-top: 3rem;
+    background-color: #e63946;
+  }
+  
+  .logout-button:hover {
+    background-color: #c1121f;
+  }
+  
+  .customer-dashboard h1 {
+    color: #2a9d8f;
+  }
+  
+  .employee-dashboard h1 {
+    color: #457b9d;
+  }
